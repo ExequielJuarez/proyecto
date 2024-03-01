@@ -1,0 +1,93 @@
+  [
+  {
+    "id": 1,
+    "NombreJuego": "The Legend of Zelda: Ocarina of Time",
+    "imgPrincipal": "zelda.jpg",
+    "img1": "zelda1.jpg",
+    "img2": "zelda2.jpg",
+    "img3": "zelda3.jpg",
+    "descripcion": "Un clásico de Nintendo 64 donde el héroe Link se aventura en el reino de Hyrule para detener a Ganondorf."
+  },
+  {
+    "id": 2,
+    "NombreJuego": "Tony Hawk's Pro Skater 2",
+    "imgPrincipal": "toni.jpg",
+    "img1": "toni1.jpg",
+    "img2": "toni2.jpg",
+    "img3": "toni3.jpg",
+    "descripcion": "Un juego de skate desarrollado por Neversoft y distribuido por Activision."
+  },
+  {
+    "id": 3,
+    "NombreJuego": "Grand Theft Auto IV",
+    "imgPrincipal": "gta.jpg",
+    "img1": "gta1.jpg",
+    "img2": "gta2.jpg",
+    "img3": "gta3.jpg",
+    "descripcion": "Un juego de mundo abierto creado por Rockstar North, donde el protagonista Niko Bellic se adentra en el mundo criminal de Liberty City."
+  },
+  {
+    "id": 4,
+    "NombreJuego": "Soul Calibur",
+    "imgPrincipal": "soul.jpg",
+    "img1": "soul1.jpg",
+    "img2": "soul2.jpg",
+    "img3": "soul3.jpg",
+    "descripcion": "Una saga de juegos de pelea desarrollada por Namco, con personajes y combates épicos."
+  },
+  {
+    "id": 5,
+    "NombreJuego": "Super Mario Galaxy",
+    "imgPrincipal": "mario.jpg",
+    "img1": "mario1.jpg",
+    "img2": "mario2.jpg",
+    "img3": "mario3.jpg",
+    "descripcion": "Los hermanos Mario y Luigi tienen aventuras intergalácticas para rescatar a la princesa de las garras de Bowser."
+  },
+  {
+    "id": 6,
+    "NombreJuego": "Minecraft",
+    "imgPrincipal": "mine.jpg",
+    "img1": "mine1.jpg",
+    "img2": "mine2.jpg",
+    "img3": "mine3.jpg",
+    "descripcion": "Un juego de construcción y exploración donde los jugadores pueden crear su propio mundo virtual."
+  },
+  {
+    "id": 7,
+    "NombreJuego": "Dark Souls",
+    "imgPrincipal": "dark.jpg",
+    "img1": "dark1.jpg",
+    "img2": "dark2.jpg",
+    "img3": "dark3.jpg",
+    "descripcion": "Un desafiante juego de rol de acción con un mundo oscuro y peligroso."
+  },
+  {
+    "id": 8,
+    "NombreJuego": "DOTA 2",
+    "imgPrincipal": "dota.jpg",
+    "img1": "dota1.jpg",
+    "img2": "dota2.jpg",
+    "img3": "dota3.jpg",
+    "descripcion": "Un popular juego de estrategia en tiempo real con batallas épicas entre equipos."
+  },
+  {
+    "id": 9,
+    "NombreJuego": "The Elder Scrolls V: Skyrim",
+    "imgPrincipal": "elder.jpg",
+    "img1": "elder1.jpg",
+    "img2": "elder2.jpg",
+    "img3": "elder3.jpg",
+    "descripcion": "Un juego de rol de mundo abierto con dragones, magia y aventuras infinitas."
+  },
+  {
+    "id": 10,
+    "NombreJuego": "Need for Speed",
+    "imgPrincipal": "ned.jpg",
+    "img1": "ned1.jpg",
+    "img2": "ned2.jpg",
+    "img3": "ned3.jpg",
+    "descripcion": "Need for Speed: Un emocionante juego de carreras que te sumerge en el mundo de las carreras callejeras ilegales. Personaliza tus autos, compite contra rivales y escapa de la policía mientras buscas la gloria en las calles nocturnas. ¡Acelera y siente la adrenalina!"
+  }
+
+]

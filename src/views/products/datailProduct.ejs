@@ -10,17 +10,17 @@
 
     <main>
 
-        <h1>Descarga Tus Juegos Favoritos</h1> <br>
+        <h1><%=producto.NombreJuego %></h1> <br>
         <article class="primerArticulo">
             <div class="contArticulo">
 
                 <section class="imgPrincipal">
-                    <img class="img1" src="/img/imgP.jpeg"  alt="">
+                    <img class="img1" src="/img/products/<%=producto.img1%>"  alt="">
                 </section>
                 
                 <section class="imgSecundarias">
-                    <img class="img2" src="/img/cuphead_screenshot_0001.png" alt="">
-                    <img class="img2" src="/img/OIP (1).jpg" alt="">
+                    <img class="img2" src="/img/products/<%=producto.img2%>" alt="">
+                    <img class="img2" src="/img/products/<%=producto.img3%>" alt="">
                 </section>
                 
                 <section class="descipcion1">
@@ -34,7 +34,7 @@
         <article class="article2">
             <div class="contArticulo2">
                 <% products.forEach(products => { %>
-                <a href="product/detail/<%=products.id %>" class="muestra">
+                <a href="../../../product/detail/<%=products.id %>" class="muestra">
                     <p class="nombrejuego"><%=products.NombreJuego%></p>
                     <img class="img4" src="/img/products/<%=products.imgPrincipal%>" alt="">
                 </a>
