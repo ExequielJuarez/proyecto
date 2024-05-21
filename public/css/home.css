@@ -4,20 +4,7 @@
    
 }
 
-@font-face {
-    font-family: Ka1;
-    src: url('/css/ka1.ttf');
-}
 
-@font-face {
-    font-family: gridex;
-    src: url('/css/GridExGallery.ttf');
-}
-
-@font-face {
-    font-family: xgrid ;
-    src: url('/css/xgrid.ttf');
-}
 
 @font-face {
     font-family: trick ;
@@ -35,25 +22,32 @@ body {
 }
 
 header{
-    background-image: linear-gradient(rgb(160, 41, 154),rgb(39, 39, 243));
+    background-image: linear-gradient(rgb(160, 41, 154),rgb(39, 39, 243)); 
+    /* background-image: linear-gradient(rgb(223, 33, 181),rgb(7, 7, 248));color fuerte */
     display: flex;
     height: 90px;
     align-items: center;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .burguerMenu{
     color: white;
-    width: 30%;
+    width: 40%;
     font-size: 35px;
     margin-left: 25px;
+}
+
+.imglogoprin{
+  width: 100%;
 }
 
 .barra-busqueda-header{
     align-items: center;
     justify-content: center;
     align-content: center;
-    width: 25%;
+    width: 45%;
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
@@ -104,7 +98,7 @@ header{
 .userIcon{
     color: white;
     display: flex;
-    width: 40%;
+    width: 10%;
     justify-content: flex-end;
     font-size: 35px;
     margin-right: 25px;
@@ -184,6 +178,8 @@ h2{
     width: 100%;
     height: 100%;
     border: 1px solid white;
+    background-image: url("/img/Captura\ de\ pantalla\ \(77\).png");
+    background-size: cover;
 }
 
 .article2{
@@ -205,6 +201,7 @@ h2{
   background-size: cover;
   padding: 10px;
   margin: 15px;
+  border-radius: 20px;
 }
 
 .muestra{
@@ -234,4 +231,221 @@ h2{
     color: rgb(255, 255, 255);
     font-size: 20px;
     margin: 20px;
+}
+
+.articleabajo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;;
+}
+
+.imgagendesc{
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    background-image: url("/img/Captura\ de\ pantalla\ \(77\).png");
+    background-size: cover;
+    
+}
+
+.descipcionabajo1{
+    width: 50%;
+    height: 230px;
+}
+
+.descipcionabajo2{
+    width: 46%;
+    height: 230px;
+}
+
+.req{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    color: #d918f3;
+}
+
+.reqtitulo{
+    font-size: 25px;
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    border-bottom: #ffffff 1px solid;
+    font-family: trick;
+}
+
+.descripcionjuego{
+    font-size: 20px;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.listado{
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.imgagendesc3{
+  width: 100%;
+  height: 35%;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(228, 60, 60);
+  text-decoration: none;
+  transition: all;
+}
+.imgagendesc3:hover{
+  background-color: rgb(255, 0, 0);
+  border: 1px solid pink;
+    box-shadow: 0px 0px 13px 2px rgb(255, 0, 0);
+}
+
+.imgagendesc4{
+  width: 100%;
+  height: 35%;
+  border: 1px solid white;
+  background-color: rgb(43, 154, 206);
+  text-decoration: none;
+}
+
+.imgagendesc4:hover{
+  background-color: rgb(0, 38, 255);
+  border: 1px solid pink;
+    box-shadow: 0px 0px 13px 2px rgb(0, 38, 255);
+}
+
+
+
+
+/*---------------------------------------------------------------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.container {
+  width: 100%;
+  /*width: 820px;*/
+  height: 340px;
+  display: flex;
+  gap: 10px;
+ /*margin-inline: 50px;*/
+  z-index: 1;
+}
+
+.card {
+  min-width: 70px;
+  height: 100%;
+  border-radius: 30px;
+  overflow: hidden;
+
+  display: flex;
+  align-items: flex-end;
+  flex-grow: 1;
+  cursor: pointer;
+  position: relative;
+  transition: flex-grow 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+
+  --transition-timing: 0.35s;
+}
+/* .card.active {
+  flex-grow: 100;
+} */
+.card:hover {
+  flex-grow: 7;
+}
+
+.card > .background {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(0.4);
+  z-index: -1;
+  transition: var(--transition-timing) ease;
+}
+.card:hover > .background {
+  filter: brightness(1);
+}
+
+.card > .card-content {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 20px;
+  overflow: hidden;
+  transition: var(--transition-timing);
+  z-index: 10;
+}
+.card:hover > .card-content {
+  inset: 20px;
+  top: auto;
+}
+
+.card-content > * {
+  transition: var(--transition-timing);
+}
+
+.card-content > .profile-image {
+  min-width: 50px;
+  max-width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.card:hover .profile-image {
+  border: 1px solid rgb(110, 252, 205);
+}
+.profile-image > svg {
+  stroke: #fefefe;
+}
+.card:hover .profile-image > svg {
+  stroke: rgb(110, 252, 205);
+}
+
+.card-content > .titlefin {
+  white-space: pre;
+  margin-left: 10px;
+  translate: 0 100%;
+  opacity: 0;
+  color: white;
+}
+.card:hover .titlefin {
+  opacity: 1;
+  translate: 0 0;
+}
+
+.card > .backdrop {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+  z-index: 0;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
 }

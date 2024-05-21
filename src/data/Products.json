@@ -1,93 +1,209 @@
   [
-  {
-    "id": 1,
-    "NombreJuego": "The Legend of Zelda: Ocarina of Time",
-    "imgPrincipal": "zelda.jpg",
-    "img1": "zelda1.jpg",
-    "img2": "zelda2.jpg",
-    "img3": "zelda3.jpg",
-    "descripcion": "Un clásico de Nintendo 64 donde el héroe Link se aventura en el reino de Hyrule para detener a Ganondorf."
-  },
-  {
-    "id": 2,
-    "NombreJuego": "Tony Hawk's Pro Skater 2",
-    "imgPrincipal": "toni.jpg",
-    "img1": "toni1.jpg",
-    "img2": "toni2.jpg",
-    "img3": "toni3.jpg",
-    "descripcion": "Un juego de skate desarrollado por Neversoft y distribuido por Activision."
-  },
-  {
-    "id": 3,
-    "NombreJuego": "Grand Theft Auto IV",
-    "imgPrincipal": "gta.jpg",
-    "img1": "gta1.jpg",
-    "img2": "gta2.jpg",
-    "img3": "gta3.jpg",
-    "descripcion": "Un juego de mundo abierto creado por Rockstar North, donde el protagonista Niko Bellic se adentra en el mundo criminal de Liberty City."
-  },
-  {
-    "id": 4,
-    "NombreJuego": "Soul Calibur",
-    "imgPrincipal": "soul.jpg",
-    "img1": "soul1.jpg",
-    "img2": "soul2.jpg",
-    "img3": "soul3.jpg",
-    "descripcion": "Una saga de juegos de pelea desarrollada por Namco, con personajes y combates épicos."
-  },
-  {
-    "id": 5,
-    "NombreJuego": "Super Mario Galaxy",
-    "imgPrincipal": "mario.jpg",
-    "img1": "mario1.jpg",
-    "img2": "mario2.jpg",
-    "img3": "mario3.jpg",
-    "descripcion": "Los hermanos Mario y Luigi tienen aventuras intergalácticas para rescatar a la princesa de las garras de Bowser."
-  },
-  {
-    "id": 6,
-    "NombreJuego": "Minecraft",
-    "imgPrincipal": "mine.jpg",
-    "img1": "mine1.jpg",
-    "img2": "mine2.jpg",
-    "img3": "mine3.jpg",
-    "descripcion": "Un juego de construcción y exploración donde los jugadores pueden crear su propio mundo virtual."
-  },
-  {
-    "id": 7,
-    "NombreJuego": "Dark Souls",
-    "imgPrincipal": "dark.jpg",
-    "img1": "dark1.jpg",
-    "img2": "dark2.jpg",
-    "img3": "dark3.jpg",
-    "descripcion": "Un desafiante juego de rol de acción con un mundo oscuro y peligroso."
-  },
-  {
-    "id": 8,
-    "NombreJuego": "DOTA 2",
-    "imgPrincipal": "dota.jpg",
-    "img1": "dota1.jpg",
-    "img2": "dota2.jpg",
-    "img3": "dota3.jpg",
-    "descripcion": "Un popular juego de estrategia en tiempo real con batallas épicas entre equipos."
-  },
-  {
-    "id": 9,
-    "NombreJuego": "The Elder Scrolls V: Skyrim",
-    "imgPrincipal": "elder.jpg",
-    "img1": "elder1.jpg",
-    "img2": "elder2.jpg",
-    "img3": "elder3.jpg",
-    "descripcion": "Un juego de rol de mundo abierto con dragones, magia y aventuras infinitas."
-  },
-  {
-    "id": 10,
-    "NombreJuego": "Need for Speed",
-    "imgPrincipal": "ned.jpg",
-    "img1": "ned1.jpg",
-    "img2": "ned2.jpg",
-    "img3": "ned3.jpg",
-    "descripcion": "Need for Speed: Un emocionante juego de carreras que te sumerge en el mundo de las carreras callejeras ilegales. Personaliza tus autos, compite contra rivales y escapa de la policía mientras buscas la gloria en las calles nocturnas. ¡Acelera y siente la adrenalina!"
-  }
+    {
+      "id": 1,
+      "NombreJuego": "The Legend of Zelda: Ocarina of Time",
+      "imgPrincipal": "zelda.jpg",
+      "img1": "zelda1.jpg",
+      "img2": "zelda2.jpg",
+      "img3": "zelda3.jpg",
+      "descripcion": "Un clásico de Nintendo 64 donde el héroe Link se aventura en el reino de Hyrule para detener a Ganondorf.",
+      "requisitosMinimos": ["No disponible"],
+      "requisitosRecomendados": ["No disponible"]
+    },
+    {
+      "id": 2,
+      "NombreJuego": "Tony Hawk's Pro Skater 2",
+      "imgPrincipal": "toni.jpg",
+      "img1": "toni1.jpg",
+      "img2": "toni2.jpg",
+      "img3": "toni3.jpg",
+      "descripcion": "Un juego de skate desarrollado por Neversoft y distribuido por Activision.",
+      "requisitosMinimos": [
+        "CPU: AMD FX 6300 / Intel Core i3-4340",
+        "RAM: 8 GB",
+        "Tarjeta gráfica: AMD Radeon HD 7950 / Nvidia GeForce GTX 660",
+        "Espacio libre en disco: 24 GB",
+        "Sistema operativo: Windows 10"
+      ],
+      "requisitosRecomendados": [
+        "CPU: AMD Ryzen 5 1600X / Intel Core i5-2500K",
+        "RAM: 12 GB",
+        "Tarjeta gráfica: AMD Radeon R9 390 / NVIDIA GeForce GTX 970",
+        "Espacio libre en disco: 24 GB",
+        "Sistema operativo: Windows 10"
+      ]
+    },
+    {
+      "id": 3,
+      "NombreJuego": "Grand Theft Auto IV",
+      "imgPrincipal": "gta.jpg",
+      "img1": "gta1.jpg",
+      "img2": "gta2.jpg",
+      "img3": "gta3.jpg",
+      "descripcion": "Un juego de mundo abierto creado por Rockstar North, donde el protagonista Niko Bellic se adentra en el mundo criminal de Liberty City.",
+      "requisitosMinimos": [
+        "CPU: Intel Core 2 Duo 1.8GHz, AMD Athlon X2 64 2.4GHz",
+        "RAM: 1 GB para Windows XP / 1.5 GB para Windows Vista",
+        "Tarjeta gráfica: 256MB NVIDIA 7900+ / 256MB ATI X1900+",
+        "Espacio libre en disco: 16 GB",
+        "Sistema operativo: Windows Vista - Service Pack 1 / XP - Service Pack 3 / Windows 7"
+      ],
+      "requisitosRecomendados": [
+        "CPU: Intel Core 2 Quad 2.4GHz, AMD Phenom X3 2.1GHz",
+        "RAM: 2 GB (Windows XP) 2.5 GB (Windows Vista)",
+        "Tarjeta gráfica: 512MB NVIDIA 8600+ / 512MB ATI 3870+",
+        "Espacio libre en disco: 18 GB",
+        "Sistema operativo: Windows Vista - Service Pack 1 / XP - Service Pack 3 / Windows 7"
+      ]
+    },
+    {
+      "id": 4,
+      "NombreJuego": "Soul Calibur",
+      "imgPrincipal": "soul.jpg",
+      "img1": "soul1.jpg",
+      "img2": "soul2.jpg",
+      "img3": "soul3.jpg",
+      "descripcion": "Una saga de juegos de pelea desarrollada por Namco, con personajes y combates épicos.",
+      "requisitosMinimos": [
+        "CPU: Intel Core i3-4160 @ 3.60GHz o equivalente",
+        "RAM: 6 GB",
+        "Tarjeta gráfica: NVIDIA GeForce GTX 1050",
+        "Espacio libre en disco: 20 GB",
+        "Sistema operativo: Windows 7, 8.1, 10 (64-bit)"
+      ],
+      "requisitosRecomendados": [
+        "CPU: Intel Core i5-4690 3.5 GHz o equivalente",
+        "RAM: 8 GB",
+        "Tarjeta gráfica: GeForce GTX 1060 o equivalente",
+        "Espacio libre en disco: 20 GB",
+        "Sistema operativo: Windows 7, 8.1, 10 (64-bit)"
+      ]
+    },
+    {
+      "id": 5,
+      "NombreJuego": "Super Mario Galaxy",
+      "imgPrincipal": "mario.jpg",
+      "img1": "mario1.jpg",
+      "img2": "mario2.jpg",
+      "img3": "mario3.jpg",
+      "descripcion": "Los hermanos Mario y Luigi tienen aventuras intergalácticas para rescatar a la princesa de las garras de Bowser.",
+      "requisitosMinimos": ["No disponible"],
+      "requisitosRecomendados": ["No disponible"]
+    },
+    {
+      "id": 6,
+      "NombreJuego": "Minecraft",
+      "imgPrincipal": "mine.jpg",
+      "img1": "mine1.jpg",
+      "img2": "mine2.jpg",
+      "img3": "mine3.jpg",
+      "descripcion": "Un juego de construcción y exploración donde los jugadores pueden crear su propio mundo virtual.",
+      "requisitosMinimos": [
+        "Sistema operativo: Windows 7 o posterior",
+        "Procesador: Intel Core i3-3210 3.2 GHz / AMD A8-7600 APU 3.1 GHz o equivalente",
+        "Memoria RAM: 2 GB",
+        "Tarjeta gráfica: Intel HD Graphics 4000 (Ivy Bridge) o AMD Radeon R5 series (Kaveri line) con OpenGL 4.4",
+        "Espacio libre en disco: Al menos 1 GB para el núcleo del juego y otros archivos"
+      ],
+      "requisitosRecomendados": [
+        "Sistema operativo: Windows 10",
+        "Procesador: Intel Core i5-4690 3.5GHz / AMD A10-7800 APU 3.5 GHz o equivalente",
+        "Memoria RAM: 4 GB",
+        "Tarjeta gráfica: GeForce 700 Series o AMD Radeon Rx 200 Series (excluyendo chipsets integrados) con OpenGL 4.5",
+        "Espacio libre en disco: 4 GB"
+      ]
+    },
+    {
+      "id": 7,
+      "NombreJuego": "Dark Souls",
+      "imgPrincipal": "dark.jpg",
+      "img1": "dark1.jpg",
+      "img2": "dark2.jpg",
+      "img3": "dark3.jpg",
+      "descripcion": "Un desafiante juego de rol de acción con un mundo oscuro y peligroso.",
+      "requisitosMinimos": [
+        "Sistema operativo: Windows 7 SP1 64bit, Windows 8.1 64bit Windows 10 64bit",
+        "Procesador: AMD FX-8150 / AMD Ryzen 3 1300X o Intel Core I5-2500K",
+        "Memoria RAM: 4 GB",
+        "Tarjeta gráfica: NVIDIA GeForce 8600 GT 2GB o AMD Radeon HD 7850 2GB",
+        "Espacio libre en disco: 8 GB"
+      ],
+      "requisitosRecomendados": [
+        "Sistema operativo: Windows 10",
+        "Procesador: AMD Ryzen 5 1500X o Intel Core I7-4790K",
+        "Memoria RAM: 8 GB",
+        "Tarjeta gráfica: AMD Radeon R9 290x o Nvidia GeForce GTX970",
+        "Espacio libre en disco: 8 GB"
+      ]
+    },
+    {
+      "id": 8,
+      "NombreJuego": "DOTA 2",
+      "imgPrincipal": "dota.jpg",
+      "img1": "dota1.jpg",
+      "img2": "dota2.jpg",
+      "img3": "dota3.jpg",
+      "descripcion": "Un popular juego de estrategia en tiempo real con batallas épicas entre equipos.",
+      "requisitosMinimos": [
+        "Sistema operativo: Windows 7",
+        "Procesador: Dual core de Intel o AMD a 2.8 GHz",
+        "Memoria RAM: 4 GB",
+        "Tarjeta gráfica: nVidia GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600",
+        "Espacio libre en disco: 15 GB"
+      ],
+      "requisitosRecomendados": [
+        "Sistema operativo: Windows 10",
+        "Procesador: Intel Core i3-2120",
+        "Memoria RAM: 8 GB",
+        "Tarjeta gráfica: NVIDIA GeForce GTX 650",
+        "Espacio libre en disco: 15 GB"
+      ]
+    },
+    {
+      "id": 9,
+      "NombreJuego": "The Elder Scrolls V: Skyrim",
+      "imgPrincipal": "elder.jpg",
+      "img1": "elder1.jpg",
+      "img2": "elder2.jpg",
+      "img3": "elder3.jpg",
+      "descripcion": "Un juego de rol de mundo abierto con dragones, magia y aventuras infinitas.",
+      "requisitosMinimos": [
+        "Sistema operativo: Windows 7/Vista/XP PC (32 o 64 bit)",
+        "Procesador: Dual Core 2.0GHz o procesador equivalente",
+        "Memoria RAM: 2 GB",
+        "Tarjeta gráfica: Direct X 9.0c tarjeta de video compatible con 512 MB de RAM",
+        "Espacio libre en disco: 6 GB"
+      ],
+      "requisitosRecomendados": [
+        "Sistema operativo: Windows 7/Vista/XP PC (32 o 64 bit)",
+        "Procesador: Quad-core Intel o AMD CPU",
+        "Memoria RAM: 4 GB",
+        "Tarjeta gráfica: DirectX 9.0c compatible NVIDIA o AMD ATI tarjeta de video con 1GB de RAM",
+        "Espacio libre en disco: 6 GB"
+      ]
+    },
+    {
+      "id": 10,
+      "NombreJuego": "Need for Speed",
+      "imgPrincipal": "ned.jpg",
+      "img1": "ned1.jpg",
+      "img2": "ned2.jpg",
+      "img3": "ned3.jpg",
+      "descripcion": "Need for Speed: Un emocionante juego de carreras que te sumerge en el mundo de las carreras callejeras ilegales. Personaliza tus autos, compite contra rivales y escapa de la policía mientras buscas la gloria en las calles nocturnas. ¡Acelera y siente la adrenalina!",
+      "requisitosMinimos": [
+        "Sistema operativo: Windows 7 o posterior",
+        "Procesador: Intel Core i3-4130 o equivalente con 4 hilos de hardware",
+        "Memoria RAM: 6 GB",
+        "Tarjeta gráfica: NVIDIA GeForce GTX 750 Ti 2GB, AMD Radeon HD 7850 2GB, o GPU compatible con DX11 equivalente con 2GB de memoria",
+        "Espacio libre en disco: 30 GB"
+      ],
+      "requisitosRecomendados": [
+        "Sistema operativo: Windows 10",
+        "Procesador: Intel Core i5-4690 o equivalente con 4 hilos de hardware",
+        "Memoria RAM: 8 GB",
+        "Tarjeta gráfica: NVIDIA GeForce GTX 970 4GB, AMD Radeon R9 290 4GB, o GPU compatible con DX11 equivalente con 4GB de memoria",
+        "Espacio libre en disco: 30 GB"
+      ]
+    }
 
 ]
