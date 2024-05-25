@@ -176,7 +176,12 @@ input {
 
   @media screen and (max-width: 768px) {
     .menuhamburguesa{
-      display: block;
+      display: flex;
+      width: 10%;
+      justify-content: flex-end;
+      color: white;
+      border: 1 px solid white;
+      border-radius: 20px;
     }
 
     .part2nav{
@@ -188,6 +193,29 @@ input {
     }
 
     .burguerMenu{
-      width: 15%;
+      width: 30%;
+      margin: 0;
     }
+
+    .barra-busqueda-header{
+      width: 35%;
+    }
+
+    .iconburguer{
+      font-size: 50px;
+    }
+}
+
+/*-------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 360px) {
+  .part2nav{
+    display: none;
+  }
+  
+  
+
+  .iconburguer{
+    font-size: 35px;
+  }
 }

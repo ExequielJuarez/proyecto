@@ -122,6 +122,17 @@ h2{
   margin: 15px;
   border-radius: 20px;
 }
+.contArticulo3{
+  width: 99%;
+  display: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url('/img/Captura\ de\ pantalla\ \(77\).png');
+  background-size: cover;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
+}
 
 .muestra{
     width: 20%;
@@ -367,4 +378,37 @@ img {
   height: 100px;
   z-index: 0;
   background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7));
+}
+
+/*-------------------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+
+.contArticulo2{
+  display: none;
+}
+
+.contArticulo3{
+  display: flex;
+}
+
+.card{
+  height: 80%;
+}
+
+}
+/*------------------------------------------------------------------*/
+
+@media screen and (max-width: 360px) {
+  .contArticulo3{
+    display: none;
+  }
+
+  h1{
+    font-size: 20px;
+  }
+
+  h2{
+    font-size: 20px;
+  }
+  
 }

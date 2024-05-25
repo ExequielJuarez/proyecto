@@ -109,3 +109,27 @@ ul {
     align-items: center;
     justify-content: space-between;
   }
+
+  /*-------------------------------------------------------------------*/
+
+  @media screen and (max-width: 768px) {
+    .imglogo {
+      width: 80%;
+  }
+  .item a{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .icon{
+    font-size: 0.5rem;
+  }
+  
+  .sectionf3{
+    font-size: 10px;
+  }
+
+  ul{
+    gap: 0.5rem;
+  }
+  
+  }
